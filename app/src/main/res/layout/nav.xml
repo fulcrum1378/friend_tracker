@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/nav"
+    android:layout_width="0dp"
+    android:translationX="-2000dp"
+    android:layout_height="match_parent"
+    android:background="@color/nav"
+    android:visibility="gone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintWidth_percent="0.8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/navTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/navLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/navTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/tbTitleMargin"
+            android:text="@string/app_name"
+            android:textColor="@color/navLogo"
+            android:textSize="@dimen/tbTitle"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/navLogo"
+            app:layout_constraintStart_toEndOf="@id/navLogo"
+            app:layout_constraintTop_toTopOf="@id/navLogo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/navVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/navVersion"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/navTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/navDivider"
+        app:layout_constraintTop_toBottomOf="@id/navTitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/navTitle">
+
+        <LinearLayout
+            android:id="@+id/navItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/navItem">
+
+                <TextView
+                    style="@style/navItemText"
+                    android:text="@string/niHome" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/navItem">
+
+                <TextView
+                    style="@style/navItemText"
+                    android:text="@string/niSettings" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

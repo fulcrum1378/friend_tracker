@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/iflViewInMaps"
+        android:title="@string/iflViewInMaps" />
+    <item
+        android:id="@+id/iflShare"
+        android:title="@string/iflShare" />
+    <item
+        android:id="@+id/iflDirections"
+        android:title="@string/iflDirections" />
+    <item
+        android:id="@+id/iflPin"
+        android:title="@string/iflPin" />
+    <item
+        android:id="@+id/iflSuspend"
+        android:title="@string/iflSuspend" />
+    <item
+        android:id="@+id/iflBreak"
+        android:title="@string/iflBreak" />
+</menu>

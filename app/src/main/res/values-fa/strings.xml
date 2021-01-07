@@ -1,0 +1,102 @@
+<resources xmlns:tools="http://schemas.android.com/tools"  tools:ignore="TypographyEllipsis">
+    <string name="app_name">رفیق یاب</string>
+    <string name="anError">متاسفانه خطایی رخ داد!</string>
+    <string name="send">ارسال</string>
+    <string name="cancel">لغو</string>
+    <string name="done">انجام شد!</string>
+    <string name="ok">باشه</string>
+    <string name="yes">بله</string>
+    <string name="no">نه</string>
+    <string name="errNavLoop">لوکیشن شما قابل دسترسی نیست!</string>
+    <string name="turnNWOn">اینترنت خاموش است!</string>
+
+    <!-- #Fonts -->
+    <string name="fnLogo">yekan.ttf</string>
+    <string name="fnField">yekan.ttf</string>
+    <string name="fnText">yekan.ttf</string>
+    <string name="fnEng">myriad_pro_semibold.otf</string>
+
+    <!-- #Nav -->
+    <string name="niHome">خانه</string>
+    <string name="niSettings">تنظیمات</string>
+    <string name="niHelp">راهنما</string>
+    <string name="niAbout">درباره ما</string>
+    <string name="niSignOut">خروج</string>
+
+    <!-- Intro -->
+    <string name="iGuideNWCheck">در حال بررسی وضعیت اینترنت...</string>
+    <string name="iGuideCheckCredentials">در حال بررسی مشخصات ذخیره شده...</string>
+    <string name="iGuideCredentialsOK">هویت شما تایید شد!</string>
+    <string name="iGuideRegistering">در حال ثبت نام...</string>
+    <string name="iGuideRegistered">نام شما با موفقیت ثبت شد!</string>
+    <string name="iGuideSigningIn">در حال ورود...</string>
+    <string name="iGuideSignedIn">با موفقیت وارد شدید!</string>
+    <string name="iGuideNeedLocation">این برنامه به لوکیشن شما نیاز دارد...</string>
+    <string name="iGuideDetecting">در حال دریافت لوکیشن شما...</string>
+    <string name="iHintName">نام شما</string>
+    <string name="iHintId">آیدی</string>
+    <string name="iHintCode">رمز عبور</string>
+    <string name="iSignUp">ثبت نام</string>
+    <string name="iSignIn">ورود</string>
+    <string name="iSignUpFailed">ثبت نام کامل نشد!</string>
+    <string name="iSignInFailed">ورود انجام نشد!</string>
+    <string name="iWrongCredentials">شماره شناسه یا رمز عبور اشتباه!</string>
+    <string name="iGoToSignIn"><u>قبلا ثبت نام کرده اید؟</u></string>
+    <string name="iGoToSignUp"><u>تازه وارد هستید؟</u></string>
+
+    <!-- Home -->
+    <string name="hTitle">@string/app_name</string>
+    <string name="me">%1$s (آیدی: %2$s)</string>
+    <string name="unknownMe">ناشناس</string>
+    <string name="unknownId">\?\?\?</string>
+    <string name="request">ارسال درخواست</string>
+    <string name="requestMsg">شماره شناسه رفیقتان را وارد کنید...</string>
+    <string name="waitingMsg">درخواست دعوت شما ارسال شد و منتظر جواب است...</string>
+    <string name="accept">قبول درخواست</string>
+    <string name="acceptMsg">آیا مطمئن هستید که می خواهید دعوت این شخص را قبول کنید؟</string>
+    <string name="metres">\n%1$s متر تا اینجا فاصله دارد.</string>
+    <string name="kilometres">\n%1$s کیلومتر تا اینجا فاصله دارد.</string>
+    <string name="noData">ما از لوکیشن این شخص هیچ اطلاعی دریافت نکردیم!</string>
+    <string name="toExit">برای خروج دوباره ضربه بزنید...</string>
+    <string name="fofRefresh">همگام سازی</string>
+    <string name="deleteRel">حذف</string>
+    <string name="requestedYourself">هذا هو رقم الهوية الخاص بك!</string>
+    <string name="alreadyFriends">أنت وهذا الشخص صديقان بالفعل.</string>
+    <string name="alreadyRequested">لقد أرسلت بالفعل دعوة لهذا الشخص. من فضلك انتظر حتى يقبلها ...</string>
+    <string name="requestOnRequest">هذا الشخص قد أرسل إليك دعوة بالفعل. هل أنت متأكد أنك تريد قبول دعوته؟</string>
+    <string name="iflViewInMaps">عرض في الخرائط</string>
+    <string name="iflShare">مشاركة الموقع</string>
+    <string name="iflDirections">مسیرها</string>
+    <string name="iflPin">پین کردن به بالا</string>
+    <string name="iflUnpin">عدم پین</string>
+    <string name="iflSuspend">تعلیق دعوت</string>
+    <string name="iflBreak">حذف</string>
+    <string name="iflAccept">قبول درخواست</string>
+    <string name="iflCancel">لغو درخواست</string>
+    <string name="titleBreak">حذف رفیق</string>
+    <string name="sureBreak">آیا مطمئن هستید که می خواهید این رفیقتان را حذف کنید؟</string>
+    <string name="notExist">چنین شخصی وجود ندارد.</string>
+    <string name="unknownInvited">{آیدی: %1$d}</string>
+    <string name="friendId">\nآیدی: %1$d</string>
+    <string name="couldNotList">بارگذاری فهرست دوستان با مشکل مواجه شد!</string>
+
+    <!-- Settings -->
+    <string name="sChangeAvatar">تغییر عکس پروفایل</string>
+    <string name="couldNotLoadAvatar">بارگذاری تصویر ممکن نیست!</string>
+    <string name="savUpload">آپلود</string>
+    <string name="savRemove">حذف</string>
+    <string name="sChangeName">تغییر نام شما</string>
+    <string name="sChangePass">تغییر رمز عبور شما</string>
+    <string name="sSubmit">تغییر</string>
+    <string name="sCPNotMatch">رمز عبور را به درستی تکرار نکردید.</string>
+    <string name="sCPMin">حداقل 4 کاراکتر&#8230;</string>
+    <string name="sCPMax">حداکثر 10 کاراکتر&#8230;</string>
+    <string name="sCNEdit">نام شما</string>
+    <string name="sCPOld">رمز عبور قبلی</string>
+    <string name="sCPNew">رمز عبور جدید</string>
+    <string name="sCPRep">تکرار رمز جدید</string>
+    <string name="sFGTracking">فاصله هر ردیابی در حالت آنلاین</string>
+    <string name="sBGTracking">فاصله هر ردیابی در حالت آفلاین</string>
+    <string name="sFGTrackingDesc">هر ساعت</string>
+    <string name="sBGTrackingDesc">هر هفته</string>
+</resources>

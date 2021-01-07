@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/body"
+    tools:context=".nav.Settings"
+    tools:ignore="MissingConstraints,UnknownId">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/toolbar"
+        android:background="@color/toolbar">
+
+        <ImageView style="@style/tbNav" />
+
+        <TextView
+            style="@style/tbTitle"
+            android:text="@string/hTitle" />
+
+        <RelativeLayout style="@style/tbRadar">
+
+            <ImageView
+                android:id="@+id/radar"
+                style="@style/match" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/sSV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintWidth_percent="0.81">
+
+        <LinearLayout
+            android:id="@+id/sLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="36dp"
+            android:paddingBottom="42dp">
+
+            <LinearLayout style="@style/sSect">
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectTitle">
+
+                    <TextView
+                        android:id="@+id/sCATitle"
+                        style="@style/sSectTitleText"
+                        android:text="@string/sChangeAvatar" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectInner">
+
+                    <com.blure.complexview.ComplexView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:radius="75dp"
+                        app:shadow="true"
+                        app:shadowAlpha="74"
+                        app:shadowColor="#000055"
+                        app:shadowSpread="2">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/sCAImage"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/circle_cp" />
+
+                            <ImageView
+                                android:id="@+id/sCAImageHover"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:background="@drawable/hover_circle_1"
+                                app:layout_constraintBottom_toBottomOf="@id/sCAImage"
+                                app:layout_constraintLeft_toLeftOf="@id/sCAImage"
+                                app:layout_constraintRight_toRightOf="@id/sCAImage"
+                                app:layout_constraintTop_toTopOf="@id/sCAImage" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </com.blure.complexview.ComplexView>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <View style="@style/sSectDivider" />
+
+            <LinearLayout style="@style/sSect">
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectTitle">
+
+                    <TextView
+                        android:id="@+id/sCNTitle"
+                        style="@style/sSectTitleText"
+                        android:text="@string/sChangeName" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectInner">
+
+                    <EditText
+                        android:id="@+id/sCNEdit"
+                        style="@style/sField1"
+                        android:hint="@string/sCNEdit"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/sCNSubmit"
+                        style="@style/sSubmit"
+                        app:layout_constraintTop_toBottomOf="@id/sCNEdit" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <View style="@style/sSectDivider" />
+
+            <LinearLayout style="@style/sSect">
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectTitle">
+
+                    <TextView
+                        android:id="@+id/sCPTitle"
+                        style="@style/sSectTitleText"
+                        android:text="@string/sChangePass" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectInner">
+
+                    <EditText
+                        android:id="@+id/sCPOld"
+                        style="@style/sField1"
+                        android:hint="@string/sCPOld"
+                        android:maxEms="10"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/sCPNew"
+                        style="@style/sField1"
+                        android:hint="@string/sCPNew"
+                        android:inputType="numberPassword"
+                        android:maxEms="10"
+                        app:layout_constraintTop_toBottomOf="@id/sCPOld" />
+
+                    <EditText
+                        android:id="@+id/sCPRep"
+                        style="@style/sField1"
+                        android:hint="@string/sCPRep"
+                        android:inputType="numberPassword"
+                        android:maxEms="10"
+                        app:layout_constraintTop_toBottomOf="@id/sCPNew" />
+
+                    <TextView
+                        android:id="@+id/sCPSubmit"
+                        style="@style/sSubmit"
+                        app:layout_constraintTop_toBottomOf="@id/sCPRep" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <View style="@style/sSectDivider" />
+
+            <LinearLayout style="@style/sSect">
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectTitle">
+
+                    <TextView
+                        android:id="@+id/sFTTitle"
+                        style="@style/sSectTitleText"
+                        android:text="@string/sFGTracking" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectInner">
+
+                    <EditText
+                        android:id="@+id/sFTEdit"
+                        style="@style/sField1"
+                        android:inputType="numberDecimal"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/sFTDesc"
+                        style="@style/sFieldDesc"
+                        android:text="@string/sFGTrackingDesc"
+                        app:layout_constraintTop_toBottomOf="@id/sFTEdit" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <View style="@style/sSectDivider" />
+
+            <LinearLayout style="@style/sSect">
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectTitle">
+
+                    <TextView
+                        android:id="@+id/sBTTitle"
+                        style="@style/sSectTitleText"
+                        android:text="@string/sBGTracking" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectInner">
+
+                    <EditText
+                        android:id="@+id/sBTEdit"
+                        style="@style/sField1"
+                        android:inputType="numberDecimal"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/sBTDesc"
+                        style="@style/sFieldDesc"
+                        android:text="@string/sBGTrackingDesc"
+                        app:layout_constraintTop_toBottomOf="@id/sBTEdit" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <!--<LinearLayout style="@style/sSect">
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectTitle">
+
+                    <TextView style="@style/sSectTitleText" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout style="@style/sSectInner">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>-->
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        style="@style/shadow_1"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+
+    <View style="@style/cover" />
+
+    <include layout="@layout/nav" />
+
+    <View style="@style/navShadow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

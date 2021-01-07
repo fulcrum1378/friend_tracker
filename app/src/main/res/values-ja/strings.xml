@@ -1,0 +1,102 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyEllipsis">
+    <string name="app_name">フレンドトラッカー</string>
+    <string name="anError">残念ながら、エラーが発生しました！</string>
+    <string name="send">送信</string>
+    <string name="cancel">キャンセル</string>
+    <string name="done">完了！</string>
+    <string name="ok">よし</string>
+    <string name="yes">はい</string>
+    <string name="no">番号</string>
+    <string name="errNavLoop">あなたの場所にアクセスできません！</string>
+    <string name="turnNWOn">インターネットに接続できません！</string>
+
+    <!-- #Fonts -->
+    <string name="fnLogo">nicokaku.ttf</string>
+    <string name="fnField">nicokaku.ttf</string>
+    <string name="fnText">nicokaku.ttf</string>
+    <string name="fnEng">myriad_pro_semibold.otf</string>
+
+    <!-- #Nav -->
+    <string name="niHome">ホーム</string>
+    <string name="niSettings">設定</string>
+    <string name="niHelp">ガイド</string>
+    <string name="niAbout">私たちに関しては</string>
+    <string name="niSignOut">サインアウト</string>
+
+    <!-- Intro -->
+    <string name="iGuideNWCheck">ネットワークをチェックしています...</string>
+    <string name="iGuideCheckCredentials">保存されている資格情報を確認しています...</string>
+    <string name="iGuideCredentialsOK">資格情報が確認されました！</string>
+    <string name="iGuideRegistering">サインアップ...</string>
+    <string name="iGuideRegistered">登録に成功しました！</string>
+    <string name="iGuideSigningIn">サインイン...</string>
+    <string name="iGuideSignedIn">サインインに成功しました。</string>
+    <string name="iGuideNeedLocation">アプリはあなたの場所を必要としています...</string>
+    <string name="iGuideDetecting">あなたの場所を検出しています...</string>
+    <string name="iHintName">あなたの名前</string>
+    <string name="iHintId">ID番号</string>
+    <string name="iHintCode">パスワード</string>
+    <string name="iSignUp">サインアップ</string>
+    <string name="iSignIn">サインイン</string>
+    <string name="iSignUpFailed">サインアップに失敗しました！</string>
+    <string name="iSignInFailed">サインインに失敗しました！</string>
+    <string name="iWrongCredentials">IDまたはパスワードが間違っています！</string>
+    <string name="iGoToSignIn"><u>すでにアカウントをお持ちですか？</u></string>
+    <string name="iGoToSignUp"><u>フレンドトラッカーは初めてですか？</u></string>
+
+    <!-- Home -->
+    <string name="hTitle">@string/app_name</string>
+    <string name="me">%1$s (ID: %2$s)</string>
+    <string name="unknownMe">わからない</string>
+    <string name="unknownId">\?\?\?</string>
+    <string name="request">招待状を送る</string>
+    <string name="requestMsg">友達のID番号を入力してください...</string>
+    <string name="waitingMsg">招待リクエストが送信され、応答を待っています...</string>
+    <string name="accept">招待を受ける</string>
+    <string name="acceptMsg">この人の招待を受け入れてもよろしいですか？</string>
+    <string name="metres">\nここから%1$sメートル。</string>
+    <string name="kilometres">\nここから%1$sキロ。</string>
+    <string name="noData">この人の場所からデータを受け取っていません！</string>
+    <string name="toExit">ダブルタップして終了します...</string>
+    <string name="fofRefresh">更新</string>
+    <string name="deleteRel">削除</string>
+    <string name="requestedYourself">これはあなた自身のID番号です！</string>
+    <string name="alreadyFriends">あなたとこの人はすでに友達です。</string>
+    <string name="alreadyRequested">あなたはすでにこの人への招待状を送っています。 彼がそれを受け入れるまで待ってください...</string>
+    <string name="requestOnRequest">この人はすでにあなたに招待状を送っていました。 彼の招待を受け入れてもよろしいですか？</string>
+    <string name="iflViewInMaps">マップで表示</string>
+    <string name="iflShare">共有場所</string>
+    <string name="iflDirections">行き方</string>
+    <string name="iflPin">トップにピン留め</string>
+    <string name="iflUnpin">上から固定を解除</string>
+    <string name="iflSuspend">招待を一時停止する</string>
+    <string name="iflBreak">削除する</string>
+    <string name="iflAccept">要請を受け入れます</string>
+    <string name="iflCancel">リクエストのキャンセル</string>
+    <string name="titleBreak">友達を削除する</string>
+    <string name="sureBreak">この友達を削除してもよろしいですか？</string>
+    <string name="notExist">そのような人は存在しません。</string>
+    <string name="unknownInvited">{ID: %1$d}</string>
+    <string name="friendId">\nID: %1$d</string>
+    <string name="couldNotList">友達をリストできませんでした！</string>
+
+    <!-- Settings -->
+    <string name="sChangeAvatar">アバターを変更する</string>
+    <string name="couldNotLoadAvatar">画像を読み込めませんでした！</string>
+    <string name="savUpload">アップロード</string>
+    <string name="savRemove">削除する</string>
+    <string name="sChangeName">名前を変更する</string>
+    <string name="sChangePass">パスワードを変更してください</string>
+    <string name="sSubmit">変化する</string>
+    <string name="sCPNotMatch">新しいパスワードとその繰り返しが一致しません。</string>
+    <string name="sCPMin">少なくとも4文字...</string>
+    <string name="sCPMax">最大10文字...</string>
+    <string name="sCNEdit">あなたの名前</string>
+    <string name="sCPOld">以前のパスワード</string>
+    <string name="sCPNew">新しいパスワード</string>
+    <string name="sCPRep">新しいパスワードを繰り返す</string>
+    <string name="sFGTracking">フォアグラウンドトラッキング間隔</string>
+    <string name="sBGTracking">バックグラウンド追跡間隔</string>
+    <string name="sFGTrackingDesc">1時間当たり</string>
+    <string name="sBGTrackingDesc">週あたり</string>
+</resources>

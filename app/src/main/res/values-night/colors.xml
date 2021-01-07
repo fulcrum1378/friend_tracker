@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CP">#FAFAFA</color>
+    <color name="CPD">#EEE</color>
+    <color name="CA">#222</color>
+    <color name="TP">#00000000</color>
+
+    <color name="hover_highlight">#09FFFFFF</color>
+    <color name="cover">#2AFFFFFF</color>
+    <color name="defHint">#AA222222</color>
+    <color name="adTitle">@color/CP</color>
+    <color name="adMessage">@color/CP</color>
+    <color name="adButtonBG">@color/TP</color>
+    <color name="adButtonTV">@color/CP</color>
+    <color name="adEditTextBG">@color/CA</color>
+    <color name="dialogueOverflow">@color/CP</color>
+    <color name="explosive_1">#44FFFFFF</color>
+    <color name="otherPagesBG">#0A0A0A</color>
+
+    <!-- #Nav -->
+    <color name="nav">@color/CA</color>
+    <color name="navLogo">#EEFFFFFF</color>
+    <color name="navTitleText">@color/navLogo</color>
+    <color name="navVersion">#888</color>
+    <color name="navItemPressed">#27FFFFFF</color>
+    <color name="navDivider">#333</color>
+    <color name="navItemText">@color/CP</color>
+
+    <!-- Home -->
+    <color name="tbNav">@color/CP</color>
+    <color name="tbTitle">@color/CP</color>
+    <color name="radar">#CCFFFFFF</color>
+    <color name="dialogue">@color/CP</color>
+    <color name="fDivider">#333</color>
+    <color name="markerOff">#555</color>
+    <color name="mInfoBG">@color/TP</color>
+    <color name="mInfoTitle">@color/CA</color>
+    <color name="mInfoSnippet">@color/CA</color>
+
+    <!-- Settings -->
+    <color name="sText">#FFF</color>
+    <color name="sButton">@color/sText</color>
+    <color name="sButtonPressed">@color/CPD</color>
+    <color name="sButtonText">@color/CA</color>
+    <color name="sHint">#999</color>
+    <color name="sDivider">#3B3B3B</color>
+</resources>

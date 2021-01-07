@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="body" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="tbNav" type="id" />
+    <item name="tbTitle" type="id" />
+    <item name="tbRadar" type="id" />
+    <item name="cover" type="id" />
+    <item name="etReq" type="id" />
+    <item name="navShadow" type="id" />
+    <item name="nav" type="id" />
+    <item name="navTitle" type="id" />
+    <item name="navLogo" type="id" />
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CP">#FAFAFA</color>
+    <color name="CPD">#E0E0E0</color>
+    <color name="CA">#2497F3</color>
+    <color name="TP">#00000000</color>
+
+    <color name="toolbar">@color/CA</color><!--For other than Home-->
+    <color name="shadow_1">#55000000</color>
+    <color name="hover_darken_1">#30000000</color>
+    <color name="hover_highlight">#09000000</color>
+    <color name="cover">#55000000</color>
+    <color name="defHint">#AA2497F3</color>
+    <color name="cvField1">@color/CP</color>
+    <color name="cvField1Pressed">@color/CPD</color>
+    <color name="cvField1TV">@color/CA</color>
+    <color name="cvField1ETHint">@color/defHint</color>
+    <color name="adTitle">@color/CA</color>
+    <color name="adMessage">@color/CA</color>
+    <color name="adButtonBG">@color/TP</color>
+    <color name="adButtonTV">@color/CA</color>
+    <color name="adEditTextBG">#102497F3</color>
+    <color name="dialogueOverflow">@color/CA</color>
+    <color name="explosive_1">#55FFFFFF</color>
+    <color name="otherPagesBG">@color/CP</color>
+
+    <!-- #Nav -->
+    <color name="nav">#F6F6F6</color>
+    <color name="navLogo">#EE2497F3</color>
+    <color name="navTitleText">@color/navLogo</color>
+    <color name="navVersion">#902497F3</color><!--#B0B0B0-->
+    <color name="navItemPressed">#202497F3</color>
+    <color name="navDivider">#E7E7E7</color><!--#302497F3-->
+    <color name="navItemText">@color/CA</color>
+
+    <!-- Intro -->
+    <color name="iGuide">#DDFFFFFF</color>
+    <color name="iSwitch">@color/iGuide</color>
+
+    <!-- Home -->
+    <color name="tbNav">@color/CP</color>
+    <color name="tbTitle">@color/CP</color>
+    <color name="radar">#CCFFFFFF</color>
+    <color name="dialogue">@color/CA</color>
+    <color name="fDivider">#CCC</color>
+    <color name="markerOff">#AAA</color>
+    <color name="mInfoBG">@color/TP</color>
+    <color name="mInfoTitle">@color/CA</color>
+    <color name="mInfoSnippet">@color/CA</color>
+
+    <!-- Settings -->
+    <color name="sText">@color/CA</color>
+    <color name="sButton">@color/sText</color>
+    <color name="sButtonPressed">#237FC8</color>
+    <color name="sButtonText">@color/CP</color>
+    <color name="sHint">#992497F3</color>
+    <color name="sDivider">#EEE</color>
+</resources>

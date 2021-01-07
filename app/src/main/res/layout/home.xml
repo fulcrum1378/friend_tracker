@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/body"
+    tools:context=".Home"
+    tools:ignore="MissingConstraints,UnknownId">
+
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/toolbar">
+
+        <ImageView style="@style/tbNav" />
+
+        <TextView
+            style="@style/tbTitle"
+            android:text="@string/hTitle" />
+
+        <RelativeLayout style="@style/tbRadar">
+
+            <ImageView
+                android:id="@+id/radar"
+                style="@style/match"
+                android:background="@drawable/circle_cp" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <fragment
+        android:id="@+id/fMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <View
+        style="@style/shadow_1"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+
+    <View style="@style/cover" />
+
+    <include layout="@layout/nav" />
+
+    <View style="@style/navShadow" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dFriends"
+        style="@style/dialogue"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:padding="0dp"
+        android:rotation="540"
+        android:scaleX="0"
+        android:scaleY="0"
+        app:layout_constraintHeight_percent="0.795"
+        app:layout_constraintWidth_percent="0.795">
+
+        <ImageView
+            android:id="@+id/dFriendsOverflow"
+            style="@style/dialogueOverflow"
+            app:layout_constraintBottom_toBottomOf="@id/dFriendsTitle"
+            app:layout_constraintTop_toTopOf="@id/dFriendsTitle" />
+
+        <TextView
+            android:id="@+id/dFriendsTitle"
+            style="@style/dialogueHeader"
+            android:layout_marginTop="18dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFriends"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@id/dfRequest"
+            app:layout_constraintTop_toBottomOf="@id/dFriendsTitle" />
+
+        <View
+            style="@style/shadow_1"
+            android:alpha="0.75"
+            app:layout_constraintTop_toTopOf="@id/rvFriends" />
+
+        <View
+            style="@style/shadow_1"
+            android:layout_height="2dp"
+            android:alpha="0.55"
+            android:rotationX="180"
+            app:layout_constraintBottom_toBottomOf="@id/rvFriends" />
+
+
+        <TextView
+            android:id="@+id/dfRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hover_tp_darken_1"
+            android:paddingTop="@dimen/dfRequestPaddingTop"
+            android:paddingBottom="@dimen/dfRequestPaddingBottom"
+            android:text="@string/request"
+            android:textAlignment="center"
+            android:textColor="@color/dialogue"
+            android:textSize="@dimen/dfRequest"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

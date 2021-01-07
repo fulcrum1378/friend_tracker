@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/body"
+    tools:context=".Intro"
+    tools:ignore="MissingConstraints">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/iOverflow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo">
+
+        <com.blure.complexview.ComplexView
+            android:id="@+id/iName"
+            style="@style/cvField1"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/iSubmit">
+
+            <androidx.constraintlayout.widget.ConstraintLayout style="@style/cvField1CL">
+
+                <EditText
+                    android:id="@+id/iNameET"
+                    style="@style/cvField1ET"
+                    android:hint="@string/iHintName" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.blure.complexview.ComplexView>
+
+        <com.blure.complexview.ComplexView
+            android:id="@+id/iId"
+            style="@style/cvField1"
+            android:layout_marginBottom="89dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/iSubmit">
+
+            <androidx.constraintlayout.widget.ConstraintLayout style="@style/cvField1CL">
+
+                <EditText
+                    android:id="@+id/iIdET"
+                    style="@style/cvField1ET"
+                    android:hint="@string/iHintId"
+                    android:inputType="number"
+                    android:maxEms="20" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.blure.complexview.ComplexView>
+
+        <com.blure.complexview.ComplexView
+            android:id="@+id/iCode"
+            style="@style/cvField1"
+            android:layout_marginTop="89dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@id/iSubmit">
+
+            <androidx.constraintlayout.widget.ConstraintLayout style="@style/cvField1CL">
+
+                <EditText
+                    android:id="@+id/iCodeET"
+                    style="@style/cvField1ET"
+                    android:hint="@string/iHintCode"
+                    android:inputType="textPassword"
+                    android:maxEms="10" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.blure.complexview.ComplexView>
+
+        <com.blure.complexview.ComplexView
+            android:id="@+id/iSubmit"
+            style="@style/cvField1"
+            android:visibility="gone"
+            app:layout_constraintVertical_bias="0.87">
+
+            <androidx.constraintlayout.widget.ConstraintLayout style="@style/cvField1CLButton">
+
+                <TextView
+                    android:id="@+id/iSubmitTV"
+                    style="@style/cvField1TV"
+                    android:text="@string/iSignUp" />
+
+                <ImageView
+                    android:id="@+id/iSubmitting"
+                    style="@style/parentConstraint"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:alpha="0"
+                    android:src="@drawable/indicator_1" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.blure.complexview.ComplexView>
+
+        <TextView
+            android:id="@+id/iSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/iSwitch"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iSubmit"
+            app:layout_constraintVertical_bias="0.25" />
+
+        <TextView
+            android:id="@+id/iGuide"
+            style="@style/parentConstraint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/iGuide"
+            android:textSize="14sp"
+            android:visibility="gone"
+            app:layout_constraintVertical_bias="0.4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/logo"
+        style="@style/parentConstraint"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.666"
+        app:layout_constraintWidth_percent="0.666"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/logo_1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- GLOBAL -->
+    <dimen name="tbTitle">24sp</dimen>
+    <dimen name="tbTitleMargin">9dp</dimen>
+    <dimen name="alert1Title">21sp</dimen>
+    <dimen name="alert1Msg">16sp</dimen>
+    <dimen name="alert1MsgLine">78sp</dimen>
+    <dimen name="alert1Button">14sp</dimen>
+
+    <!-- Home -->
+    <dimen name="dialogueHeader">18.5sp</dimen>
+    <dimen name="itemFriendName">17sp</dimen>
+    <dimen name="dfRequest">17sp</dimen>
+    <dimen name="dfRequestPaddingTop">15dp</dimen>
+    <dimen name="dfRequestPaddingBottom">15dp</dimen>
+</resources>

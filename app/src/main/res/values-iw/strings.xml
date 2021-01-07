@@ -1,0 +1,102 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyEllipsis">
+    <string name="app_name">גשש חברים</string>
+    <string name="anError">למרבה הצער, אירעה שגיאה!</string>
+    <string name="send">שלח</string>
+    <string name="cancel">בטל</string>
+    <string name="done">בוצע!</string>
+    <string name="ok">בסדר</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="errNavLoop">המיקום שלך אינו נגיש!</string>
+    <string name="turnNWOn">אין חיבור אינטרנט!</string>
+
+    <!-- #Fonts -->
+    <string name="fnLogo">narkisim.ttf</string>
+    <string name="fnField">alef_bold.ttf</string>
+    <string name="fnText">alef.ttf</string>
+    <string name="fnEng">myriad_pro_semibold.otf</string>
+
+    <!-- #Nav -->
+    <string name="niHome">בית</string>
+    <string name="niSettings">הגדרות</string>
+    <string name="niHelp">להנחות</string>
+    <string name="niAbout">עלינו</string>
+    <string name="niSignOut">התנתק</string>
+
+    <!-- Intro -->
+    <string name="iGuideNWCheck">בודק רשת ...</string>
+    <string name="iGuideCheckCredentials">בודק את האישורים המאוחסנים ...</string>
+    <string name="iGuideCredentialsOK">אישורי אישורים!</string>
+    <string name="iGuideRegistering">נרשם ...</string>
+    <string name="iGuideRegistered">נרשם בהצלחת!</string>
+    <string name="iGuideSigningIn">נכנס ...</string>
+    <string name="iGuideSignedIn">נכנס בהצלחה!</string>
+    <string name="iGuideNeedLocation">האפליקציה זקוקה למיקום שלך ...</string>
+    <string name="iGuideDetecting">מזהה את המיקום שלך ...</string>
+    <string name="iHintName">השם שלך</string>
+    <string name="iHintId">מספר תעודת זהות</string>
+    <string name="iHintCode">סיסמה</string>
+    <string name="iSignUp">הירשם</string>
+    <string name="iSignIn">להתחבר</string>
+    <string name="iSignUpFailed">ההרשמה נכשלה!</string>
+    <string name="iSignInFailed">הכניסה נכשלה!</string>
+    <string name="iWrongCredentials">מספר הזהות או הסיסמה שלך שגויים!</string>
+    <string name="iGoToSignIn"><u>כבר יש לך חשבון?</u></string>
+    <string name="iGoToSignUp"><u>חדש בגשש חברים?</u></string>
+
+    <!-- Home -->
+    <string name="hTitle">@string/app_name</string>
+    <string name="me">%1$s (תעודת זהות: %2$s)</string>
+    <string name="unknownMe">לא ידוע</string>
+    <string name="unknownId">\?\?\?</string>
+    <string name="request">שלח הזמנה</string>
+    <string name="requestMsg">הזן את מספר הזהות של חברך ...</string>
+    <string name="waitingMsg">בקשת ההזמנה שלך נשלחה ומחכה לתגובה ...</string>
+    <string name="accept">קבל הזמנה</string>
+    <string name="acceptMsg">האם אתה בטוח שברצונך לקבל את ההזמנה של אדם זה?</string>
+    <string name="metres">\n%1$s מטר מכאן</string>
+    <string name="kilometres">\n%1$s ק\"מ מכאן.</string>
+    <string name="noData">לא קיבלנו נתונים ממיקום האדם הזה!</string>
+    <string name="toExit">הקש פעמיים כדי לצאת ...</string>
+    <string name="fofRefresh">לרענן</string>
+    <string name="deleteRel">לִמְחוֹק</string>
+    <string name="requestedYourself">זהו מספר הזהות שלך!</string>
+    <string name="alreadyFriends">אתה והאדם הזה כבר חברים.</string>
+    <string name="alreadyRequested">כבר שלחת הזמנה לאדם זה. אנא המתן עד שהוא יקבל את זה ...</string>
+    <string name="requestOnRequest">האדם הזה כבר שלח לך הזמנה. האם אתה בטוח שברצונך לקבל את הזמנתו?</string>
+    <string name="iflViewInMaps">צפה במפות</string>
+    <string name="iflShare">שתף מיקום</string>
+    <string name="iflDirections">הוראות</string>
+    <string name="iflPin">הצמד לראש הדף</string>
+    <string name="iflUnpin">בטל הצמדה מלמעלה</string>
+    <string name="iflSuspend">השעה את ההזמנה</string>
+    <string name="iflBreak">להסיר</string>
+    <string name="iflAccept">קבל את הבקשה</string>
+    <string name="iflCancel">בטל בקשה</string>
+    <string name="titleBreak">הסר חבר</string>
+    <string name="sureBreak">האם אתה בטוח שברצונך להסיר את החבר הזה?</string>
+    <string name="notExist">אדם כזה לא קיים.</string>
+    <string name="unknownInvited">{תעודת זהות: %1$d}</string>
+    <string name="friendId">\nתעודת זהות: %1$d</string>
+    <string name="couldNotList">לא ניתן היה לרשום את החברים!</string>
+
+    <!-- Settings -->
+    <string name="sChangeAvatar">שנה את האוואטר שלך</string>
+    <string name="couldNotLoadAvatar">לא ניתן היה לטעון את התמונה!</string>
+    <string name="savUpload">העלה</string>
+    <string name="savRemove">להסיר</string>
+    <string name="sChangeName">תשנה את השם שלך</string>
+    <string name="sChangePass">שנה את סיסמתך</string>
+    <string name="sSubmit">שינוי</string>
+    <string name="sCPNotMatch">הסיסמה החדשה וחזרתה אינן תואמות.</string>
+    <string name="sCPMin">לפחות 4 תווים ...</string>
+    <string name="sCPMax">מקסימום 10 תווים ...</string>
+    <string name="sCNEdit">השם שלך</string>
+    <string name="sCPOld">סיסמה ישנה</string>
+    <string name="sCPNew">סיסמה חדשה</string>
+    <string name="sCPRep">חזור על סיסמה חדשה</string>
+    <string name="sFGTracking">מרווח מעקב קדמי</string>
+    <string name="sBGTracking">מרווח מעקב אחר רקע</string>
+    <string name="sFGTrackingDesc">לשעה</string>
+    <string name="sBGTrackingDesc">בשבוע</string>
+</resources>

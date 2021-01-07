@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Friend Tracker</string>
+    <string name="google_maps_key">AIzaSyCwDWSmiHZIbKclo4Mo7jk1y1jPPyLThcQ</string>
+    <string name="anError">Unfortunately, an error occurred!</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done!</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="errNavLoop">Your location is inaccessible!</string>
+    <string name="turnNWOn">No internet connection!</string>
+
+    <!-- #Fonts -->
+    <string name="fnLogo">pacifico.ttf</string>
+    <string name="fnField">myriad_pro_semibold.otf</string>
+    <string name="fnText">myriad_pro_semibold.otf</string>
+    <string name="fnEng">myriad_pro_semibold.otf</string>
+
+    <!-- #Nav -->
+    <string name="niHome">Home</string>
+    <string name="niSettings">Settings</string>
+    <string name="niHelp">Help</string>
+    <string name="niAbout">About Us</string>
+    <string name="niSignOut">Sign Out</string>
+
+    <!-- Intro -->
+    <string name="iGuideNWCheck">Checking for network&#8230;</string>
+    <string name="iGuideCheckCredentials">Checking the stored credentials&#8230;</string>
+    <string name="iGuideCredentialsOK">Credentials verified!</string>
+    <string name="iGuideRegistering">Signing Up&#8230;</string>
+    <string name="iGuideRegistered">Successfully registered!</string>
+    <string name="iGuideSigningIn">Signing In&#8230;</string>
+    <string name="iGuideSignedIn">Successfully signed in!</string>
+    <string name="iGuideNeedLocation">The app needs your location&#8230;</string>
+    <string name="iGuideDetecting">Detecting your location&#8230;</string>
+    <string name="iHintName">Your Name</string>
+    <string name="iHintId">ID Number</string>
+    <string name="iHintCode">Password</string>
+    <string name="iSignUp">Sign Up</string>
+    <string name="iSignIn">Sign In</string>
+    <string name="iSignUpFailed">Sign Up Failed!</string>
+    <string name="iSignInFailed">Sign In Failed!</string>
+    <string name="iWrongCredentials">Wrong ID or password!</string>
+    <string name="iGoToSignIn"><u>Already have an account?</u></string>
+    <string name="iGoToSignUp"><u>New to Friend Tracker?</u></string>
+
+    <!-- Home -->
+    <string name="hTitle">@string/app_name</string>
+    <string name="me">%1$s (ID: %2$s)</string>
+    <string name="unknownMe">Unknown</string>
+    <string name="unknownId">\?\?\?</string>
+    <string name="request">Send Invitation</string>
+    <string name="requestMsg">Enter Your Friend\'s ID Number&#8230;</string>
+    <string name="waitingMsg">Your invitation request has been sent and is waiting for your friend\'s response&#8230;</string>
+    <string name="accept">Accept Invitation</string>
+    <string name="acceptMsg">Are you sure you want to accept this person\'s invitation?</string>
+    <string name="metres">\n%1$s metres far from here.</string>
+    <string name="kilometres">\n%1$s kilometres far from here.</string>
+    <!-- All other languages must contain "%1$s" too. -->
+    <string name="noData">We\'ve received no data from this person\'s location!</string>
+    <string name="toExit">Double tap to exit&#8230;</string>
+    <string name="fofRefresh">Refresh</string>
+    <string name="deleteRel">Delete</string>
+    <string name="requestedYourself">This is your own ID number!</string>
+    <string name="alreadyFriends">You and this person are already friends.</string>
+    <string name="alreadyRequested">You\'ve already sent invitation for this person. Please wait until he accepts it&#8230;</string>
+    <string name="requestOnRequest">This person had already sent you an invitation. Are you sure you want to accept his invitation?</string>
+    <string name="iflViewInMaps">View in Maps</string>
+    <string name="iflShare">Share Location</string>
+    <string name="iflDirections">Directions</string>
+    <string name="iflPin">Pin to Top</string>
+    <string name="iflUnpin">Unpin from Top</string>
+    <string name="iflSuspend">Suspend Invitation</string>
+    <string name="iflBreak">Remove</string>
+    <string name="iflAccept">Accept Request</string>
+    <string name="iflCancel">Cancel Request</string>
+    <string name="titleBreak">Remove Friend</string>
+    <string name="sureBreak">Are you sure you want to remove this friend?</string>
+    <string name="notExist">Such a person does not exist.</string>
+    <string name="unknownInvited">{ID: %1$d}</string>
+    <string name="friendId">\nID Number: %1$d</string>
+    <string name="couldNotList">Could not list the friends!</string>
+
+    <!-- Settings -->
+    <string name="sChangeAvatar">Change Your Avatar</string>
+    <string name="couldNotLoadAvatar">Could not load the image!</string>
+    <string name="savUpload">Upload</string>
+    <string name="savRemove">Remove</string>
+    <string name="sChangeName">Change Your Name</string>
+    <string name="sChangePass">Change Your Password</string>
+    <string name="sSubmit">Change</string>
+    <string name="sCPNotMatch">The new password and its repetition are not match.</string>
+    <string name="sCPMin">At least 4 characters&#8230;</string>
+    <string name="sCPMax">Maximum 10 characters&#8230;</string>
+    <string name="sCNEdit">Your Name</string>
+    <string name="sCPOld">Old Password</string>
+    <string name="sCPNew">New Password</string>
+    <string name="sCPRep">Repeat New Password</string>
+    <string name="sFGTracking">Foreground Tracking Interval</string>
+    <string name="sBGTracking">Background Tracking Interval</string>
+    <string name="sFGTrackingDesc">per hour</string>
+    <string name="sBGTrackingDesc">per week</string>
+</resources>

@@ -1,0 +1,102 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyEllipsis">
+    <string name="app_name">مقتفي الأصدقاء</string>
+    <string name="anError">للأسف، حدث خطأ!</string>
+    <string name="send">إرسال</string>
+    <string name="cancel">إلغاء</string>
+    <string name="done">فعله!</string>
+    <string name="ok">حسنا</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="errNavLoop">موقعك لا يمكن الوصول إليه!</string>
+    <string name="turnNWOn">لا يوجد اتصال بالإنترنت!</string>
+
+    <!-- #Fonts -->
+    <string name="fnLogo">cairo_bold.ttf</string>
+    <string name="fnField">cairo_regular.ttf</string>
+    <string name="fnText">cairo_regular.ttf</string>
+    <string name="fnEng">myriad_pro_semibold.otf</string>
+
+    <!-- #Nav -->
+    <string name="niHome">الصفحة الرئيسية</string>
+    <string name="niSettings">الإعدادات</string>
+    <string name="niHelp">المرشد</string>
+    <string name="niAbout">المعلومات عنا</string>
+    <string name="niSignOut">خروج</string>
+
+    <!-- Intro -->
+    <string name="iGuideNWCheck">جارٍ البحث عن الشبكة ...</string>
+    <string name="iGuideCheckCredentials">جاري التحقق من بيانات الاعتماد المخزنة ...</string>
+    <string name="iGuideCredentialsOK">تم التحقق من أوراق الاعتماد!</string>
+    <string name="iGuideRegistering">توقيع ...</string>
+    <string name="iGuideRegistered">سجلت بنجاح!</string>
+    <string name="iGuideSigningIn">تسجيل الدخول ...</string>
+    <string name="iGuideSignedIn">تم تسجيل الدخول بنجاح!</string>
+    <string name="iGuideNeedLocation">التطبيق يحتاج موقعك ...</string>
+    <string name="iGuideDetecting">جارٍ الكشف عن موقعك ...</string>
+    <string name="iHintName">اسمك</string>
+    <string name="iHintId">رقم الهوية</string>
+    <string name="iHintCode">كلمه السر</string>
+    <string name="iSignUp">سجل</string>
+    <string name="iSignIn">تسجيل الدخول</string>
+    <string name="iSignUpFailed">فشل انشاء الحساب!</string>
+    <string name="iSignInFailed">فشل تسجيل الدخول!</string>
+    <string name="iWrongCredentials">رقم الهوية أو كلمة المرور خطأ!</string>
+    <string name="iGoToSignIn"><u>هل لديك حساب بالفعل؟</u></string>
+    <string name="iGoToSignUp"><u>جديد في مقتفي الأصدقاء؟</u></string>
+
+    <!-- Home -->
+    <string name="hTitle">@string/app_name</string>
+    <string name="me">%1$s (رقم الهوية: %2$s)</string>
+    <string name="unknownMe">غير معروف</string>
+    <string name="unknownId">\?\?\?</string>
+    <string name="request">إرسال دعوة</string>
+    <string name="requestMsg">أدخل رقم هوية صديقك ...</string>
+    <string name="waitingMsg">تم إرسال طلب الدعوة الخاص بك وينتظر الرد ...</string>
+    <string name="accept">قبول دعوة</string>
+    <string name="acceptMsg">هل أنت متأكد أنك تريد قبول دعوة هذا الشخص؟</string>
+    <string name="metres">\nیبعد عنا %1$s مترا.</string>
+    <string name="kilometres">\nیبعد عنا %1$s كيلومترا.</string>
+    <string name="noData">لم نتلق أي بيانات من موقع هذا الشخص!</string>
+    <string name="toExit">انقر نقرًا مزدوجًا للخروج ...</string>
+    <string name="fofRefresh">تحديث</string>
+    <string name="deleteRel">حذف</string>
+    <string name="requestedYourself">هذا هو رقم الهوية الخاص بك!</string>
+    <string name="alreadyFriends">أنت وهذا الشخص صديقان بالفعل.</string>
+    <string name="alreadyRequested">لقد أرسلت بالفعل دعوة لهذا الشخص. من فضلك انتظر حتى يقبلها ...</string>
+    <string name="requestOnRequest">هذا الشخص قد أرسل إليك دعوة بالفعل. هل أنت متأكد أنك تريد قبول دعوته؟</string>
+    <string name="iflViewInMaps">عرض في الخرائط</string>
+    <string name="iflShare">مشاركة الموقع</string>
+    <string name="iflDirections">الاتجاهات</string>
+    <string name="iflPin">دبوس الى أعلى الصفحة</string>
+    <string name="iflUnpin">إزالة التثبيت من الأعلى</string>
+    <string name="iflSuspend">تعليق الدعوة</string>
+    <string name="iflBreak">إزالة</string>
+    <string name="iflAccept">قبول الطلب</string>
+    <string name="iflCancel">إلغاء الطلب</string>
+    <string name="titleBreak">أزالة صديق</string>
+    <string name="sureBreak">هل أنت متأكد أنك تريد إزالة هذا الصديق؟</string>
+    <string name="notExist">مثل هذا الشخص غير موجود.</string>
+    <string name="unknownInvited">{رقم الهوية: %1$d}</string>
+    <string name="friendId">\nرقم الهوية: %1$d</string>
+    <string name="couldNotList">لا يمكن سرد الأصدقاء!</string>
+
+    <!-- Settings -->
+    <string name="sChangeAvatar">تغییر صورتك</string>
+    <string name="couldNotLoadAvatar">لا يمكن تحميل الصورة!</string>
+    <string name="savUpload">رفع</string>
+    <string name="savRemove">إزالة</string>
+    <string name="sChangeName">تغییر اسمك</string>
+    <string name="sChangePass">تغییر كلمة السر الخاصة بك</string>
+    <string name="sSubmit">غير</string>
+    <string name="sCPNotMatch">كلمة المرور الجديدة وتكرارها غير متطابقين.</string>
+    <string name="sCPMin">4 أحرف على الأقل ...</string>
+    <string name="sCPMax">بحد أقصى 10 أحرف ...</string>
+    <string name="sCNEdit">اسمك</string>
+    <string name="sCPOld">كلمة السر القديمة</string>
+    <string name="sCPNew">كلمة السر الجديدة</string>
+    <string name="sCPRep">تكریر كلمة السر الجديدة</string>
+    <string name="sFGTracking">الفاصل الزمني لتتبع المقدمة</string>
+    <string name="sBGTracking">الفاصل الزمني لتعقب الخلفية</string>
+    <string name="sFGTrackingDesc">في الساعة</string>
+    <string name="sBGTrackingDesc">في الاسبوع</string>
+</resources>
